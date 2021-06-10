@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #09496B;
+    min-height: 100vh;
+		padding-top: 3.25rem;
+    font-family: NEXON Lv1 Gothic OTF Light, sans-serif;;
+    font-size: 15px;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+    max-width: 750px;
+    margin: auto;
+}
+
+.is-gogo {
+    color: #4E7789; !important;
+}
+
+.button.is-gogo {
+    background-color: #4E7789;
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.modal-content {
+    width: 600px;
+    max-width: 80%;
+}
+
+
+.image img {
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+@charset "utf-8";
+
+
+
+}
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.button-content { position: absolute; left: 200px; top: 430px; }
+
+
+/*css 초기화*/
+
+
+
+.card {
+	height: 500px;
+	width: 350px;
+	border-radius: 15px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cards-box{
+    margin: auto;
+    width: 1200px;
+}
+
+.commet {
+    padding-top: 100px;
+}
